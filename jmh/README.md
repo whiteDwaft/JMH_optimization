@@ -199,3 +199,7 @@ Benchmark                   Mode  Cnt  Score   Error  Units
 BenchmarkRunner.benchmark2  avgt    5  1,221 ± 0,038  us/op
 ```
 ___Итог:___ Разница по Latency в 17 раз (в пользу Protobuff) что логично
+
+Protobuff в разы быстрее в плане сериализации и десириализации объектов
+и к тому же буфер в размере меньше JSON, но к сожадению он не читабелен
+для человека
